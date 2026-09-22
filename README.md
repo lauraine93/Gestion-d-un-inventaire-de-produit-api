@@ -1,10 +1,13 @@
-# 📦 API de Gestion d'un Inventaire de Produits
+#  API de Gestion d'un Inventaire de Produits
 
-## 🎋 Objectif
+##  Objectif
 
 API REST permettant de gérer un inventaire de produits avec suivi des stocks et alertes de stock bas.
 
-## ⚙️ Stack Technologique
+<img width="1891" height="971" alt="image" src="https://github.com/user-attachments/assets/bcea735b-f4ea-463c-b2f9-0ac76e8ba815" />
+
+
+##  Stack Technologique
 
 | Technologie | Version |
 |---|---|
@@ -19,7 +22,7 @@ API REST permettant de gérer un inventaire de produits avec suivi des stocks et
 
 ---
 
-## 🚀 Installation et Démarrage
+##  Installation et Démarrage
 
 ### Prérequis
 
@@ -220,7 +223,7 @@ Retourne tous les produits dont le stock est **strictement inférieur** au seuil
 
 ---
 
-## 🚨 Codes de Réponse HTTP
+##  Codes de Réponse HTTP
 
 | Code | Signification | Quand |
 |---|---|---|
@@ -233,7 +236,7 @@ Retourne tous les produits dont le stock est **strictement inférieur** au seuil
 
 ---
 
-## 🐳 Ports Utilisés
+##  Ports Utilisés
 
 | Service | Port externe | Port interne | Description |
 |---|---|---|---|
@@ -310,7 +313,7 @@ curl http://localhost:8087/api/products/below-quantity/10
 
 ---
 
-## 📁 Structure du Projet
+##  Structure du Projet
 
 ```
 src/main/java/com/Gestion/d/un/Inventaire/de/Produits/
@@ -350,7 +353,7 @@ src/main/java/com/Gestion/d/un/Inventaire/de/Produits/
 
 ---
 
-## 🛑 Arrêter les Services
+##  Arrêter les Services
 
 ```bash
 # Arrêter l'application Spring Boot : Ctrl+C dans le terminal
@@ -378,7 +381,7 @@ Les paramètres de configuration se trouvent dans `src/main/resources/applicatio
 
 ---
 
-## 📌 Notes Importantes
+##  Notes Importantes
 
 1. **Alerte de stock bas** : Le champ `lowStockAlert` est calculé automatiquement. Il passe à `true` lorsque la quantité en stock est **inférieure à 5 unités**.
 
